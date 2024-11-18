@@ -1,0 +1,21 @@
+name: venv-code-gen
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - python-dotenv
+  - requests
+  - numpy
+  - pandas
+  - jupyterlab
+  - ipywidgets
+  - anthropic
+  - google-generativeai
+  - grpcio
+  - jupyter-dash
+  - pip:
+    - transformers
+    - openai
+    - gradio
